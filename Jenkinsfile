@@ -18,7 +18,7 @@ pipeline {
         stage('部署') {
             steps {
                 echo '正在部署...'
-                sh 'cp -r * /home/zhao/website/'
+                sh 'cp -r * /home/zhao/my_nginx/'
             }
         }
     }

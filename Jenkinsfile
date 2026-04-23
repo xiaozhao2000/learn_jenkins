@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     stages {
         stage('拉取代码') {
             steps {
@@ -13,6 +12,13 @@ pipeline {
             steps {
                 echo '正在执行脚本...'
                 sh 'bash hello.sh'
+            }
+        }
+
+        stage('部署') {
+            steps {
+                echo '正在部署...'
+                sh 'cp -r * /home/zhao/website/'
             }
         }
     }

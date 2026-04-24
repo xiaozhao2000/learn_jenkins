@@ -1,2 +1,0 @@
-
-登录响应：{'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjIwMzc0Njg0MTE5NDgxNzEyNjQsInZlciI6MSwic2Vzc2lvbl9pZCI6IlFHNFQ0SnBRVzFzZkxxLUFxTXpNeE03SnJoZk9rSGg5IiwicGxhdGZvcm0iOiJtb2JpbGUiLCJpc3MiOiJ1c2VyX2NlbnRlciIsImV4cCI6MTc3OTU5Mjg5OCwibmJmIjoxNzc3MDAwODY4LCJpYXQiOjE3NzcwMDA4OTh9.wpMTFbYKt6hw1gF57oFXcy3sZ1QRSjHpTE9RxKZlsWk', 'user': {'user_id': '2037468411948171264', 'nickname': '', 'gender': 0, 'avatar': '', 'status': 1, 'data_region': '', 'language': '', 'timezone': ''}}

@@ -28,7 +28,7 @@ pipeline {
         stage('运行测试') {
             steps {
                 echo '正在运行测试...'
-                sh 'pytest'
+                sh 'python3 -m pytest'
             }
         }
     }

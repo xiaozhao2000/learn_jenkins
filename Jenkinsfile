@@ -34,6 +34,13 @@ pipeline {
     }
 
     post {
+        always {
+            allure([
+                includeProperties: false,
+                jdk: '',
+                results: [[path: 'reports/allure-results']]
+            ])
+        }
         success {
             echo '构建成功！'
         }

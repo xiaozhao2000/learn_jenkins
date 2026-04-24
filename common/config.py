@@ -1,4 +1,4 @@
-BASE_URL = "http://172.207.28.65:10001"
+BASE_URL = "https://api-test.loonadm.com"
 
 HEADERS = {
     "x-md-language": "zh-CN",

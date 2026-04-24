@@ -1,0 +1,53 @@
+# ========== 环境与密钥 ==========
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+*.pem
+*.key
+secrets/
+
+# ========== 依赖 ==========
+node_modules/
+vendor/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# ========== 构建产物 ==========
+dist/
+build/
+out/
+*.egg-info/
+*.class
+*.o
+*.so
+
+# ========== 日志与临时文件 ==========
+*.log
+*.tmp
+*.cache
+.cache/
+tmp/
+temp/
+
+# ========== IDE / 编辑器 ==========
+.idea/
+.vscode/
+*.suo
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ========== 测试覆盖率 ==========
+coverage/
+.coverage
+*.lcov
+.nyc_output/
+
+# ========== 数据库 ==========
+*.sqlite
+*.sqlite3
+*.db

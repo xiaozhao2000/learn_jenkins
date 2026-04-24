@@ -30,6 +30,7 @@ pipeline {
                 sh 'pytest'
             }
         }
+    }
 
     post {
         success {

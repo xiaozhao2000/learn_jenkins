@@ -20,7 +20,7 @@ pipeline {
         stage('安装依赖') {
             steps {
                 echo '正在安装依赖...'
-                sh 'pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple'
+                sh 'pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple'
             }
         }
 

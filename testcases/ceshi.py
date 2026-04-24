@@ -11,7 +11,6 @@ def login_success():
         json=LOGIN_DATA
     )
     print(response.status_code)
-    print(response.text)
     print("响应体:", response.json())
     print(type(response.json()))
     print(response.json().get("access_token"))

@@ -15,6 +15,9 @@ venv/
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
 
 # ========== 构建产物 ==========
 dist/
@@ -43,9 +46,22 @@ Thumbs.db
 
 # ========== 测试覆盖率 ==========
 coverage/
+htmlcov/
 .coverage
+.coverage.*
 *.lcov
 .nyc_output/
+
+# ========== 测试报告 ==========
+reports/
+allure-results/
+allure-report/
+
+# ========== Python 工具缓存 ==========
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
 
 # ========== 数据库 ==========
 *.sqlite

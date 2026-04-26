@@ -1,3 +1,6 @@
+import yaml
+import os
+
 BASE_URL = "https://api-test.loonadm.com"
 
 HEADERS = {
@@ -27,3 +30,14 @@ CHECK_VERSION_DATA = {
         "type": "keyi"
     }
 }
+
+# config.py 的上一级目录就是项目根目录
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# 用绝对路径拼接
+_data_path = os.path.join(BASE_DIR, "data", "test_data.yaml")
+
+with open(_data_path, "r", encoding="utf-8") as f:
+    TEST_DATA = yaml.safe_load(f)
+
+LOGIN_DATA = TEST_DATA["login"]
+CHECK_VERSION_DATA = TEST_DATA["check_version"]

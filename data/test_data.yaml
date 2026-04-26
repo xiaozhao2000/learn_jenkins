@@ -1,0 +1,14 @@
+login:
+  email:
+    email: "vacsbt_lly@vip.qq.com"
+
+check_version:
+  bluetooth_version: "1.0.1.ble"
+  language: "zh-Hans"
+  material_version: "1.0.6.material"
+  mcu_head_version: "1.0.3.head"
+  mcu_main_version: "1.0.4.main"
+  sn: "KY060LZPY2B5E55D"
+  version: "1.0.8"
+  version_type:
+    type: "keyi"

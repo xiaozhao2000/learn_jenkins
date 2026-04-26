@@ -1,6 +1,7 @@
 login:
   email:
-    email: "vacsbt_lly@vip.qq.com"
+    email: "apitest9@keyirobot.com"
+    password: "apitest9"
 
 check_version:
   bluetooth_version: "1.0.1.ble"

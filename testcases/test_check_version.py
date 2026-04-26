@@ -24,6 +24,7 @@ class TestCheckVersion:
         with allure.step("验证响应内容不为空"):
             resp_json = response.json()
             assert resp_json is not None, "响应为空"
+
     @allure.story("异常检查版本信息的场景")
     @allure.title("不带token获取版本信息")
     def test_check_version_without_token(self):
